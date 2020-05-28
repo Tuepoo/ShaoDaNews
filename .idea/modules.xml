@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShaoDaNews.iml" filepath="$PROJECT_DIR$/ShaoDaNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuepooandroidadsdk/tuepooandroidadsdk.iml" filepath="$PROJECT_DIR$/tuepooandroidadsdk/tuepooandroidadsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuepooandroidadsdk/vuandroidadsdk.iml" filepath="$PROJECT_DIR$/tuepooandroidadsdk/vuandroidadsdk.iml" />
+    </modules>
+  </component>
+</project>
