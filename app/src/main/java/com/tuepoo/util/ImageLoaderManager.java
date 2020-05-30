@@ -19,7 +19,7 @@ import com.tuepoo.R;
 /**
  * @function: 初始化UniverImageLoader, 并用来加载网络图片
  */
-public class ImageLoaderManager {
+public class  ImageLoaderManager {
 
     private static final int THREAD_COUNT = 4;
     private static final int PRIORITY = 2;

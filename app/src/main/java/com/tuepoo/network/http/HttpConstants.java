@@ -5,19 +5,14 @@ package com.tuepoo.network.http;
  */
 public class HttpConstants {
 
-    public  static String News_date = "http://v.juhe.cn/toutiao/index";
+    private static final String ROOT_URL = "http://ShaoDaNews.com/api";
 
-    private static final String ROOT_URL = "http://imooc.com/api";
 
-    /**
-     * 请求本地产品列表
-     */
-    public static String PRODUCT_LIST = ROOT_URL + "/fund/search.php";
 
     /**
-     * 本地产品列表更新时间措请求
+     * 本地更新时间措请求
      */
-    public static String PRODUCT_LATESAT_UPDATE = ROOT_URL + "/fund/upsearch.php";
+    public static String LATESAT_UPDATE = ROOT_URL + "/fund/upsearch.php";
 
     /**
      * 登陆接口
@@ -30,14 +25,19 @@ public class HttpConstants {
     public static String CHECK_UPDATE = ROOT_URL + "/config/check_update.php";
 
     /**
-     * 首页产品请求接口
+     * 首页新鲜事请求接口
      */
-    public static String HOME_RECOMMAND = ROOT_URL + "/product/home_recommand.php";
+    public static String HOME_RECOMMAND = ROOT_URL + "/news/home_recommand.php";
 
     /**
-     * 服务详情接口
+     * 新鲜事详情接口
      */
-    public static String COURSE_DETAIL = ROOT_URL + "/product/course_detail.php";
+    public static String NEWS_DETAIL = ROOT_URL + "/product/news_detail.php";
+
+    /**
+     * 请求新鲜事评论列表
+     */
+    public static String NEWS_COMMENT= ROOT_URL + "/fund/news_commment.php";
 
 }
 

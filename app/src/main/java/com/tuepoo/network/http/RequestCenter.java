@@ -54,13 +54,11 @@ public class RequestCenter {
     }
 
     /**
-     * 请求课程详情
-     *
-     * @param listenerNews_date
+     * 请求新鲜事详情
      */
-    public static void requestCourseDetail(String courseId, DisposeDataListener listener) {
+    public static void requestCourseDetail(String newId, DisposeDataListener listener) {
         RequestParams params = new RequestParams();
-        params.put("courseId", courseId);
-        RequestCenter.postRequest(HttpConstants.COURSE_DETAIL, params, listener, BaseNewsModel.class);
+        params.put("newId", newId);
+        RequestCenter.postRequest(HttpConstants.NEWS_DETAIL, params, listener, BaseNewsModel.class);
     }
 }

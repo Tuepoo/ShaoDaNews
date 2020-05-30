@@ -13,7 +13,7 @@ import okhttp3.RequestBody;
 /**
  * @function build the request
  */
-public class CommonRequest {
+public class  CommonRequest {
     /**
      * create the key-value Request
      *
